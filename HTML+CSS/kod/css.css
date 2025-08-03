@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #4267B2;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left .logo {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.navbar .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-right a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.nav-right a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.left {
+  width: 200px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.icon {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.item span {
+  cursor: pointer;
+}
+
+.item span:hover {
+  text-decoration: underline;
+}
+
+.mid {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sorgu {
+  display: flex;
+  gap: 10px;
+}
+
+.sorgu input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.sorgu button {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.sorgu button img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #f1f1f1;
+  font-size: 14px;  
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.fb-link {
+  color: #1877f2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.fb-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.center-container {
+  height: 60; 
+  gap: 20px;
+  flex-direction: column;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+}
+.alt-container {
+  height: 60; 
+  gap: 20px;
+  flex-direction: column;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+}
